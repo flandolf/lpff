@@ -7,6 +7,16 @@ def is_url(url):
         return True
     else:
         return False
+
+# search for db
+try:
+    f = open("lichess_db_puzzle.csv", "r")
+    f.close()
+except FileNotFoundError:
+    print(Fore.RED + "lichess_db_puzzle.csv not found! Please download from here: https://database.lichess.org/lichess_db_puzzle.csv.zst" + Fore.RESET)
+    input(Fore.GREEN + "Press enter to continue..." + Fore.RESET)
+    exit(1)
+
 while True:
     url = None
     if is_url(pyperclip.paste()) == True:

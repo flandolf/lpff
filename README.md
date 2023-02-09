@@ -5,6 +5,7 @@ This script finds the FEN of a puzzle on lichess.org. It is useful for ~~cheatin
 - chess
 - colorama
 - pyperclip
+- [Lichess Puzzle Database](https://database.lichess.org/lichess_db_puzzle.csv.zst)
 ## Usage
 - Run `python3 export_board.py` in the terminal.
 ## Licence
