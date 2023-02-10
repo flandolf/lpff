@@ -5,9 +5,11 @@ This script finds the FEN of a puzzle on lichess.org. It is useful for ~~cheatin
 - chess
 - colorama
 - pyperclip
+- stockfish (included)
 - [Lichess Puzzle Database](https://database.lichess.org/lichess_db_puzzle.csv.zst)
 ## Usage
-- Run `python3 export_board.py` in the terminal.
+- Run `python3 export_board.py` to retrieve the FEN of a puzzle.
+- Run `python3 engine_full.py` to solve a puzzle.
 ## Licence
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 ## NOTE
@@ -19,6 +21,7 @@ This script is not affiliated with lichess.org in any way. Use at your own risk.
 - **A:** Look at it yourself!
 ## Roadmap
 - GUI Version.
-## Acknowledgements
+## Acknowledgements / Credits
 - [chess](https://pypi.org/project/chess/)
 - [colorama](https://pypi.org/project/colorama/)
+- [Stockfish](https://stockfishchess.org/) [LICENCE](stockfish/Copying.txt)
